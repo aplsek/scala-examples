@@ -134,7 +134,12 @@ class ListsSuite extends FunSuite {
     assert(max(List(-1,-2)) === -1)
   }
    
-    test("ales1-empty") {
+    
+  test("ales1-negavtive2") {
+    assert(sum(List(-1,-2)) === -3)
+  }
+   
+  test("ales1-empty") {
       intercept[NoSuchElementException] {
     	  max(List())
       }
