@@ -41,23 +41,6 @@ object Main {
   
   
   
-  
-  def main(args: Array[String]) {
-    println("Pascal's Triangle")
-    
-    println("example1 : " + balance("(just an) example".toList)  )           //> res0: Boolean = false
-    /*
-    balance("(just an)) example".toList)           //> res1: Boolean = false
-    balance("(just an)(( example".toList)         //> res2: Boolean = false
-    balance("(".toList)                          //> res3: Boolean = false
-    balance(")".toList)                          //> res4: Boolean = false
-  
-   balance("".toList)  */
-  }
-  
-  def powerTwo(r:Int) : Int = {
-    2 ^ r
-  }
 
   /**
    * Exercise 1
