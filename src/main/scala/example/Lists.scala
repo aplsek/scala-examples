@@ -34,7 +34,7 @@ object Lists {
     else {
       if (xs.tail.isEmpty) xs.head
       else {
-      var y = maxx(xs.tail)
+      val y = maxx(xs.tail)
       if (xs.head > y) xs.head
       else
         y
